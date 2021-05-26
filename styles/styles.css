@@ -211,6 +211,32 @@ body .about {
   text-align: center;
 }
 
+body .totalusage table {
+  font-family: arial, sans-serif;
+  border: 1px solid black;
+  width: 100%;
+  background-color: orange;
+}
+
+body .totalusage th,
+body .totalusage td {
+  text-align: left;
+  padding: 8px;
+}
+
+body .usage table {
+  font-family: arial, sans-serif;
+  border: 1px solid black;
+  width: 100%;
+  background-color: white;
+}
+
+body .usage th,
+body .usage td {
+  text-align: left;
+  padding: 8px;
+}
+
 @media (max-width: 800px) {
   body .container {
     width: 90%;

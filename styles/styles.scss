@@ -174,8 +174,38 @@ body {
     color: red;
   }
 
-  .about{
+  .about {
     text-align: center;
+  }
+
+  .totalusage {
+    table {
+      font-family: arial, sans-serif;
+      border: 1px solid black;
+      width: 100%;
+      background-color: orange;
+    }
+
+    th,
+    td {
+      text-align: left;
+      padding: 8px;
+    }
+  }
+
+  .usage {
+    table {
+      font-family: arial, sans-serif;
+      border: 1px solid black;
+      width: 100%;
+      background-color: white;
+    }
+
+    th,
+    td {
+      text-align: left;
+      padding: 8px;
+    }
   }
 
   @media (max-width: 800px) {
@@ -184,20 +214,18 @@ body {
       max-width: 100%;
       min-height: 70%;
     }
-  
+
     .font {
       font-size: 150%;
     }
-  
+
     button {
       width: 80%;
     }
-  
+
     .forgot {
       margin-top: 5%;
       margin-bottom: 5%;
     }
   }
 }
-
-
