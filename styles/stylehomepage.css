@@ -19,6 +19,7 @@
   padding: 0.5rem calc((100vw - 1200px) / 2);
   z-index: 10;
   position: relative;
+  margin-bottom: 60px;
 }
 
 .navbar_logo {
@@ -252,7 +253,7 @@ body .title {
   border-top: 4px solid black;
   border-bottom: 4px solid black;
   padding: 25px;
-  margin-left: -100px;
+  margin-left: 70px;
   margin-top: 10px;
   text-align: center;
 }
@@ -261,4 +262,4 @@ body .title .subtitle {
   font-size: 18px;
   color: black;
 }
-/*# sourceMappingURL=stylefirsthome.css.map */
+/*# sourceMappingURL=stylehomepage.css.map */

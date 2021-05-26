@@ -1,0 +1,100 @@
+* {
+  background-color: #ddd8d8;
+}
+
+.image-carousel {
+  width: 303px;
+  height: 180px;
+  overflow: hidden;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 45px;
+}
+
+.image-carousel .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 0;
+  -webkit-transition: left 0.5s ease-out;
+  transition: left 0.5s ease-out;
+}
+
+.image-carousel .bubbles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 5px;
+}
+
+.image-carousel .bubbles .bubble {
+  margin: 2.5px;
+  background-color: white;
+  border-radius: 100000px;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  opacity: 0.25;
+  -webkit-transition: opacity 0.1s linear;
+  transition: opacity 0.1s linear;
+  cursor: pointer;
+}
+
+.image-carousel .bubbles .bubble:hover {
+  opacity: 0.65;
+}
+
+.image-carousel .bubbles .bubble.active {
+  opacity: 1;
+}
+
+.image-carousel .next::after,
+.image-carousel .prev::after {
+  content: ">";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  background-color: white;
+  font-size: 20px;
+  width: 1em;
+  height: 3em;
+  font-weight: bold;
+  font-family: sans-serif;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  line-height: 3em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 0.2em;
+  cursor: pointer;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.1s linear;
+  transition: opacity 0.1s linear;
+}
+
+.image-carousel .next:hover::after,
+.image-carousel .prev:hover::after {
+  opacity: 1;
+}
+
+.image-carousel .prev::after {
+  content: "<";
+  left: 0;
+}
+/*# sourceMappingURL=image-carousel.css.map */
