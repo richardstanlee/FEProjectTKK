@@ -1,1 +1,231 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: #ddd8d8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+body .title {
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  padding: 25px;
+  margin: 10px;
+  text-align: center;
+}
+
+body .title .subtitle {
+  font-size: 18px;
+  color: black;
+}
+
+body .container {
+  background-color: #ddd8d8;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+  width: 60%;
+  max-width: 100%;
+  min-height: 70%;
+}
+
+body h1 {
+  font-weight: bold;
+  margin: 0;
+  color: #020b29;
+  font-size: 200%;
+}
+
+body h3 {
+  font-weight: bold;
+  margin: 0;
+  color: #020b29;
+  font-size: 200%;
+}
+
+body .form-container form {
+  background: #ddd8d8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+body span {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body .span1 {
+  font-size: 80%;
+  margin-bottom: -3%;
+}
+
+body .form-container {
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+
+body .form-container input {
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+  border-bottom: 2px solid;
+  text-align: center;
+  margin-bottom: 7%;
+  opacity: 55%;
+}
+
+body .form-container input:valid {
+  color: black;
+}
+
+body .form-container input:invalid {
+  color: red;
+}
+
+body input,
+body button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+body .input1 {
+  border: none;
+  padding: 12px 15px;
+  width: 100%;
+  border-bottom: 1px solid;
+  text-align: center;
+  margin-bottom: -20%;
+  color: none;
+}
+
+body .input1:valid {
+  color: black;
+}
+
+body .input1:valid {
+  color: red;
+}
+
+body button a {
+  text-decoration: none;
+  color: white;
+  font-size: 120%;
+}
+
+body .btnAgree {
+  font-size: 80%;
+  padding: 0 50px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -2%;
+  margin-bottom: 5%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .forgot {
+  font-size: 72%;
+  font-weight: 600;
+  text-align: center;
+  color: #3854f3;
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  margin-bottom: 3%;
+}
+
+body .forgot:hover {
+  color: #a53434;
+}
+
+body button {
+  margin: 0 auto;
+  width: 50%;
+  height: 6%;
+  border-radius: 30px;
+  color: white;
+  font-size: 90%;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: -1%;
+  background: -webkit-linear-gradient(left, #7579ff, #b224ef);
+}
+
+body button:hover {
+  background: -webkit-linear-gradient(left, #b224ef, #7579ff);
+}
+
+body button:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
+body button:focus {
+  outline: none;
+}
+
+body button.ghost {
+  background: transparent;
+  border-color: #ff0909;
+  color: red;
+}
+
+body .about {
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  body .container {
+    width: 90%;
+    max-width: 100%;
+    min-height: 70%;
+  }
+  body .font {
+    font-size: 150%;
+  }
+  body button {
+    width: 80%;
+  }
+  body .forgot {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
